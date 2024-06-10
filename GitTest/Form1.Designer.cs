@@ -34,12 +34,13 @@ namespace GitTest
             this.n2 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.btnSoustraction = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnAfficher
             // 
             this.btnAfficher.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAfficher.Location = new System.Drawing.Point(441, 157);
+            this.btnAfficher.Location = new System.Drawing.Point(235, 156);
             this.btnAfficher.Name = "btnAfficher";
             this.btnAfficher.Size = new System.Drawing.Size(153, 57);
             this.btnAfficher.TabIndex = 0;
@@ -83,11 +84,23 @@ namespace GitTest
             this.label2.TabIndex = 4;
             this.label2.Text = "Deuxième nombre";
             // 
+            // btnSoustraction
+            // 
+            this.btnSoustraction.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSoustraction.Location = new System.Drawing.Point(455, 156);
+            this.btnSoustraction.Name = "btnSoustraction";
+            this.btnSoustraction.Size = new System.Drawing.Size(153, 57);
+            this.btnSoustraction.TabIndex = 5;
+            this.btnSoustraction.Text = "Soustraction";
+            this.btnSoustraction.UseVisualStyleBackColor = true;
+            this.btnSoustraction.Click += new System.EventHandler(this.btnSoustraction_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnSoustraction);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.n2);
@@ -107,6 +120,7 @@ namespace GitTest
         private System.Windows.Forms.TextBox n2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button btnSoustraction;
     }
 }
 

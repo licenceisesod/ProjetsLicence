@@ -25,5 +25,14 @@ namespace GitTest
             som = nbre1 + nbre2;
             MessageBox.Show("la somme de ces deux nombres est : "+ som);
         }
+
+        private void btnSoustraction_Click(object sender, EventArgs e)
+        {
+            int nbre1, nbre2, sous;
+            nbre1 = Convert.ToInt32(n1.Text);
+            nbre2 = Convert.ToInt32(n2.Text);
+            sous = nbre1 - nbre2;
+            MessageBox.Show("la soustraction de ces deux nombres est : " + sous);
+        }
     }
 }
