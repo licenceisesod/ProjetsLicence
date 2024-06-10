@@ -19,7 +19,11 @@ namespace GitTest
 
         private void btnAfficher_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Bonjour les amis");
+            int nbre1, nbre2, som;
+            nbre1 = Convert.ToInt32(n1.Text);
+            nbre2 =Convert.ToInt32( n2.Text);
+            som = nbre1 + nbre2;
+            MessageBox.Show("la somme de ces deux nombres est "+ som);
         }
     }
 }

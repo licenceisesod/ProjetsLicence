@@ -1,0 +1,10 @@
+C:\Users\user\Desktop\Github2024\ProjetsLicence\GitTest\bin\Debug\GitTest.exe.config
+C:\Users\user\Desktop\Github2024\ProjetsLicence\GitTest\bin\Debug\GitTest.exe
+C:\Users\user\Desktop\Github2024\ProjetsLicence\GitTest\bin\Debug\GitTest.pdb
+C:\Users\user\Desktop\Github2024\ProjetsLicence\GitTest\obj\Debug\GitTest.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\Github2024\ProjetsLicence\GitTest\obj\Debug\GitTest.Form1.resources
+C:\Users\user\Desktop\Github2024\ProjetsLicence\GitTest\obj\Debug\GitTest.Properties.Resources.resources
+C:\Users\user\Desktop\Github2024\ProjetsLicence\GitTest\obj\Debug\GitTest.csproj.GenerateResource.cache
+C:\Users\user\Desktop\Github2024\ProjetsLicence\GitTest\obj\Debug\GitTest.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Github2024\ProjetsLicence\GitTest\obj\Debug\GitTest.exe
+C:\Users\user\Desktop\Github2024\ProjetsLicence\GitTest\obj\Debug\GitTest.pdb
